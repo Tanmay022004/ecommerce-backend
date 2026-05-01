@@ -1,4 +1,4 @@
-const Product = require("../models/Product");
+const Product = require("../Models/Product");
 
 exports.getProducts = async (req, res) => {
   const { keyword, category } = req.query;
